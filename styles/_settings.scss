@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+a,
+a:visited {
+    color: snow;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(45deg, #141815, #20ca34);
+    min-height: 100vh;
+}

@@ -1,0 +1,53 @@
+.corps {
+    width: 90%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    .hamburger {
+        // float: right;
+        height: 25px;
+        width: 40px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+        .logo-menu {
+            height: 3px;
+            width: 30px;
+            background: snow;
+        }
+    }
+    .player {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 350px;
+        border-radius: 15px 15px 0 0;
+        box-shadow: 0 50px 80px rgba(0, 0, 0, 0.25);
+        .img-box {
+            position: relative;
+            width: 100%;
+            height: 450px;
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                border-radius: 15px;
+                object-fit: cover;
+            }
+        }
+        audio {
+            position: absolute;
+            bottom: -10px;
+            outline: none;
+            width: 100%;
+        }
+    }
+}
